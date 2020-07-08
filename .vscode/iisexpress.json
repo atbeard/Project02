@@ -1,6 +1,6 @@
 {
-  "port": 34100,
-  "path": "c:\\workspace\\Giphy",
+  "port": 21450,
+  "path": "c:\\workspace\\Project02",
   "clr": "v4.0",
   "protocol": "http"
 }

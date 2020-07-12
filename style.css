@@ -1,6 +1,24 @@
 img {
     margin-top: 15px;
-    margin-right: 5px;
+    margin-right: 10px;
     height: 250px;
     width: 250px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: bisque;   
+}
+
+div {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+body {
+    background-color: grey;
 }

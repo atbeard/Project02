@@ -1,14 +1,21 @@
-function getData(){
-    var input = $("#search").val()
-    $("#gif").empty ();
-    var xhr = $.get("http://api.giphy.com/v1/gifs/search?q="+input+"+&api_key=REHW6QysYQ6mkdZjLkzYioQsIL1Nenff&limit=5");
-    xhr.done(function(data) { 
-        console.log("success got data", data);
-
-    var gifs = data.data
-
-    for (i in gifs){
-    $('#gif').append("<img src='"+gifs[i].images.original.url+"'>")
-    }
-});
-}
+$(document).ready( function() {
+    $("button").click( function() {
+        $("#outputArea").empty();
+        console.log('button clicked');
+        var data = $("#myForm").serialize();
+        $.ajax ("http://api.giphy.com/v1/gifs/search", {
+            data: data,
+            url:"http://api.giphy.com/v1/gifs/search",
+        })
+        .done((data)=>{
+            let gif = data.data
+            $.each(gif, (i, e)=>{
+                var gifs = e.images.original.url
+                console.log(e.images.original.url)
+                var final = '<img src="' +gifs+ '">';
+                $('#outputArea').append(final)
+            })
+        })
+  });
+  })
+  

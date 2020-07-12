@@ -9,16 +9,24 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-color: bisque;   
 }
 
-div {
-    display: flexbox;
-    align-items: center;
-    justify-content: center;
-    margin-left: 150px;
-}
 
 body {
-    background-color: grey;
+    background-color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#outputArea {
+    margin-left: 100px;
 }

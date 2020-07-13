@@ -29,11 +29,24 @@ body {
   background-color: black;
   color: white;
   text-align: center;
+  font-family: 'Bangers', cursive;
   font-size: 30px;
 }
 
+.header {
+  position: top;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Bangers', cursive;
+}
+
 .row {
-  margin-left: 15%;
+  margin-left: 10%;
   margin-bottom: 50px;
 }
 

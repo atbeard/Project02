@@ -43,7 +43,12 @@
 <form id="myForm">
 <input type="text" name="q" placeholder="Search gifs">
 <input type="hidden" name="api_key" value="REHW6QysYQ6mkdZjLkzYioQsIL1Nenff">
-<input type="text" name="limit" placeholder="# of gifs">
+<select id="limit" name="limit">
+  <option value="5">5 per page</option>
+  <option value="10">10 per page</option>
+  <option value="15">15 per page</option>
+  <option value="20">20 per page</option>
+</select>
 <button type="button">Submit</button>
 </form>
 <div id="outputArea"></div>

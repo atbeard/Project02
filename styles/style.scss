@@ -28,9 +28,9 @@ body {
 }
 
 #outputArea {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
 }
 
 select {
@@ -38,9 +38,15 @@ select {
     margin-left: 5px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 320px) {
     /* For mobile phones: */
    #outputArea {
-        margin-left: 50px;
+        margin-left: 15%;
+        margin-right: 15%;
+
+    }
+    form {
+        display: block;
+        margin-left: 20px;
     }
   }

@@ -1,0 +1,13 @@
+User Stories:
+
+Teacher:
+
+As a teacher, I want a place that I can look up gifs to send to my students.
+
+Phone user:
+
+As a student, I want to be able to look up gifs on my phone that fits on my phone screen.
+
+Desktop user:
+
+As a young professional, I want to be able to look up gifs on my desktop and select the number of gifs that show up.

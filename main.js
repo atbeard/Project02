@@ -1,5 +1,5 @@
 $(document).ready( function() {
-    $("button").click( function() {
+    $("#submit").click( function() {
         $("#outputArea").empty();
         console.log('button clicked');
         var data = $("#myForm").serialize();

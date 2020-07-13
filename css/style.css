@@ -53,5 +53,8 @@ select {
     display: block;
     margin-left: 20px;
   }
+  button {
+    margin-top: 5px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

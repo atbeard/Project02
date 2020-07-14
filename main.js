@@ -3,7 +3,7 @@ $(document).ready( function() {
     $("#submit").click( function() {
         $("#outputArea").empty();
         console.log('button clicked');
-        var data = $("#myForm").serialize();
+        var data = $("#myForm").serializeArray();
         $.ajax ("http://api.giphy.com/v1/gifs/search", {
             data: data,
             url:"http://api.giphy.com/v1/gifs/search",
